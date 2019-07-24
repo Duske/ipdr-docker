@@ -4,7 +4,7 @@ RUN apk update && \
     apk add --no-cache --virtual build-deps \ 
     wget \
     tar
-RUN wget https://github.com/miguelmota/ipdr/releases/download/v0.1.5/ipdr_0.1.5_linux_386.tar.gz -O ipdr.tar.gz
+RUN wget https://github.com/Duske/ipdr/releases/download/v0.2.0/ipdr_0.2.0_linux_386.tar.gz -O ipdr.tar.gz
 RUN tar -xzf ipdr.tar.gz    && \
     rm ipdr.tar.gz          && \
     chmod a+x ipdr          && \
